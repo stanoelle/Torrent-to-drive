@@ -72,7 +72,7 @@ files = os.listdir(save_path)
 
 for file_name in files:
 
-    file_path = os.path.join(save_path, file_name).replace('/', '\\')  # Modify the file path separator for Windows
+    file_path = os.path.join(save_path, file_name).replace('/', '\')  
 
     # Create a file in Google Drive and set its properties
 
